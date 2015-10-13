@@ -1,0 +1,14 @@
+dualPrint 1.3a.isc report
+
+Pending
+1. High	- iOS	- Give clipboard support.
+2. High	- Andro	- Give clipboard support.
+4. Mir	- Andro	- Test appearance on multiple devices.
+u. Low	- HTML	- Give clipboard support.
+u. Low	- Andro	- Raise cap on procesable pages.
+
+Bugs
+5. Low	- iOS	- header image is pushable, it should not be.
+u. High	- Andro	- No escribir nada en uno de los encasillados y hacer clic a generar renglones hace que el app tumbe.
+
+*Orden_de_ejecución. Prioridad - Plataforma - Detalles.

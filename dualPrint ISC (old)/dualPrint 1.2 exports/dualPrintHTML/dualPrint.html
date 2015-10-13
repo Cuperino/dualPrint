@@ -1,0 +1,1286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>dualPrint</title>
+
+<script src="javascript/prototype.js" type="text/javascript"></script>
+<script src="javascript/scriptaculous.js" type="text/javascript"></script>
+
+<style type="text/css">
+body {
+background: url('img/pagebg.jpg') repeat-x;
+background-color: #FFFFFF;
+font-family: arial, verdana, sans-serif;
+font-size: 12px;
+}
+a {
+color: #cde2ff;
+font-weight: bold;
+font-size: 11px;
+}
+.window {
+background: #E0E0E0;
+position: absolute;
+padding: 1px;
+border: 1px solid #424242;
+}
+.window p {
+margin: 3px;
+}
+.windowinner {
+padding: 7px;
+}
+.windowinner input {
+margin-top: 20px;
+}
+.window h1
+{
+padding: 6px;
+display: block;
+background-color: #A6A6A6;
+font-size: 13px;
+margin: 0px;
+color: #424242;
+}
+</style>
+
+<script type="text/javascript">
+
+var iscVwImpar = "";
+var iscVqDifference = 0;
+var iscVqTest = 0;
+var iscVcountText = "countText";
+var iscVn1 = 1;
+var iscVwrite = "write";
+var iscVwPar = "";
+var iscVstartText = "1";
+var iscVslText = "4";
+var iscVnText = "12";
+var iscVcount = 0;
+var iscVstart = 1;
+var iscVsl = 4;
+var iscVn = 12;
+var iscVguion = "-";
+var iscVcoma = ",";
+var iscVn2 = 2;
+var iscVNotifyOSD_Imp = "notify-send 'dualPrint: Odd Copy' 'The first print set has been copied to the clipboard. You may paste it in the print dialog.'";
+var iscVNotifyOSD_Par = "notify-send 'dualPrint: Even Copy' 'The seccond print set has been copied to the clipboard. You may paste it in the print dialog.'";
+var iscVlink_web = "http://sourceforge.net/projects/dualprint/";
+var iscVlink_license = "http://www.opensource.org/licenses/MIT";
+var iscVwAbout = 0;
+var iscVlink_pHelp = "redirect.html";
+//EndOfGlobalVariables
+
+function init()
+{
+
+iscWindow151();
+//iscApp1Launched
+}
+
+Event.observe(window, 'load', init, false);
+
+function iscTargetIs3()
+{
+//iscTargetIs3HTML5
+}
+
+
+function iscTargetIs4()
+{
+//iscTargetIs4HTML5
+}
+
+
+function iscIfThen5()
+{
+if (iscVwAbout == iscVn1)
+{
+//iscIfThen5True
+
+}
+else
+{
+iscSetNumber139();
+//iscIfThen5False
+}
+}
+
+
+function iscTargetIs6()
+{
+//iscTargetIs6HTML5
+}
+
+
+function iscTargetIs7()
+{
+iscMessageBox115();
+//iscTargetIs7HTML5
+}
+
+
+function iscTargetIs8()
+{
+iscMessageBox115();
+//iscTargetIs8HTML5
+}
+
+
+function iscPortalDestination9()
+{
+iscSetNumber69();
+iscAdd132();
+iscAdd130();
+iscAdd138();
+iscDoWhile10();
+//iscPortalDestination9Arrived
+}
+
+
+function iscDoWhile10()
+{
+while (iscVcount < iscVn)
+{
+iscCombineText97();
+iscConvertNumberToText133();
+iscCombineText64();
+iscAdd132();
+iscAdd130();
+//iscDoWhile10Loop
+
+}
+iscSetText100();
+iscAdd132();
+iscAdd130();
+iscDoWhile11();
+//iscDoWhile10Finished
+}
+
+
+function iscDoWhile11()
+{
+while (iscVcount < iscVn)
+{
+iscCombineText97();
+iscConvertNumberToText133();
+iscCombineText64();
+iscAdd132();
+iscAdd130();
+//iscDoWhile11Loop
+
+}
+iscSetText61();
+//iscDoWhile11Finished
+}
+
+
+function iscPortalDeparture12()
+{
+iscPortalDestination31();
+//iscPortalDeparture12Done
+}
+
+
+function iscIfThen13()
+{
+if (iscVqTest > iscVn)
+{
+iscPortalDeparture12();
+//iscIfThen13True
+
+}
+else
+{
+iscPortalDeparture14();
+//iscIfThen13False
+}
+}
+
+
+function iscPortalDeparture14()
+{
+iscPortalDestination33();
+//iscPortalDeparture14Done
+}
+
+
+function iscIfThen15()
+{
+if (iscVqTest == iscVqDifference)
+{
+iscPortalDeparture14();
+//iscIfThen15True
+
+}
+else
+{
+iscAdd136();
+iscAdd137();
+iscIfThen13();
+//iscIfThen15False
+}
+}
+
+
+function iscIfThen16()
+{
+if (iscVqTest < iscVqDifference)
+{
+iscPortalDeparture14();
+//iscIfThen16True
+
+}
+else
+{
+iscIfThen15();
+//iscIfThen16False
+}
+}
+
+
+function iscPortalDeparture17()
+{
+iscPortalDestination32();
+//iscPortalDeparture17Done
+}
+
+
+function iscIfThen18()
+{
+if (iscVqTest == iscVn)
+{
+iscPortalDeparture17();
+//iscIfThen18True
+
+}
+else
+{
+iscDivide145();
+iscIfThen16();
+//iscIfThen18False
+}
+}
+
+
+function iscPortalDeparture19()
+{
+iscPortalDestination9();
+//iscPortalDeparture19Done
+}
+
+
+function iscIfThen20()
+{
+if (iscVsl == iscVn1)
+{
+iscPortalDeparture19();
+//iscIfThen20True
+
+}
+else
+{
+iscIfThen18();
+//iscIfThen20False
+}
+}
+
+
+function iscIfThen21()
+{
+if (iscVqTest > iscVn)
+{
+iscMessageBox53();
+//iscIfThen21True
+
+}
+else
+{
+iscIfThen20();
+//iscIfThen21False
+}
+}
+
+
+function iscIfThen22()
+{
+if (iscVsl < iscVn)
+{
+iscAdd136();
+iscIfThen21();
+//iscIfThen22True
+
+}
+else
+{
+iscMessageBox54();
+//iscIfThen22False
+}
+}
+
+
+function iscIfThen23()
+{
+if (iscVn < iscVn2)
+{
+iscMessageBox58();
+//iscIfThen23True
+
+}
+else
+{
+iscIfThen24();
+//iscIfThen23False
+}
+}
+
+
+function iscIfThen24()
+{
+if (iscVstart < iscVn1)
+{
+iscMessageBox57();
+//iscIfThen24True
+
+}
+else
+{
+iscIfThen25();
+//iscIfThen24False
+}
+}
+
+
+function iscIfThen25()
+{
+if (iscVsl < iscVn1)
+{
+iscMessageBox56();
+//iscIfThen25True
+
+}
+else
+{
+iscIfThen26();
+//iscIfThen25False
+}
+}
+
+
+function iscIfThen26()
+{
+if (iscVstart < iscVn)
+{
+iscIfThen22();
+//iscIfThen26True
+
+}
+else
+{
+iscMessageBox55();
+//iscIfThen26False
+}
+}
+
+
+function iscPortalDestination27()
+{
+iscAdd127();
+iscSubtract128();
+iscIfThen142();
+//iscPortalDestination27Arrived
+}
+
+
+function iscPortalDeparture28()
+{
+iscPortalDestination27();
+//iscPortalDeparture28Done
+}
+
+
+function iscPortalDestination29()
+{
+iscAdd132();
+iscAdd130();
+iscConvertNumberToText133();
+iscCombineText64();
+iscPortalDeparture28();
+//iscPortalDestination29Arrived
+}
+
+
+function iscPortalDeparture30()
+{
+iscPortalDestination29();
+//iscPortalDeparture30Done
+}
+
+
+function iscPortalDestination31()
+{
+iscSetNumber69();
+iscCombineText78();
+iscPortalDeparture37();
+iscSetText100();
+iscCombineText78();
+iscAdd127();
+iscSubtract128();
+iscSubtract123();
+iscSubtract131();
+iscConvertNumberToText133();
+iscCombineText64();
+iscSetText61();
+//iscPortalDestination31Arrived
+}
+
+
+function iscPortalDestination32()
+{
+iscSetNumber69();
+iscCombineText78();
+iscPortalDeparture37();
+iscSetText100();
+iscSetText61();
+//iscPortalDestination32Arrived
+}
+
+
+function iscPortalDestination33()
+{
+iscSetNumber69();
+iscCombineText78();
+iscPortalDeparture39();
+//iscPortalDestination33Arrived
+}
+
+
+function iscPortalDestination34()
+{
+iscAdd127();
+iscAdd126();
+iscIfThen141();
+//iscPortalDestination34Arrived
+}
+
+
+function iscPortalDestination35()
+{
+iscAdd132();
+iscSubtract131();
+iscConvertNumberToText133();
+iscCombineText64();
+iscPortalDeparture36();
+//iscPortalDestination35Arrived
+}
+
+
+function iscPortalDeparture36()
+{
+iscPortalDestination34();
+//iscPortalDeparture36Done
+}
+
+
+function iscPortalDeparture37()
+{
+iscPortalDestination35();
+//iscPortalDeparture37Done
+}
+
+
+function iscPortalDestination38()
+{
+iscPortalDeparture37();
+iscSetText100();
+iscCombineText78();
+iscPortalDeparture37();
+iscSetText61();
+//iscPortalDestination38Arrived
+}
+
+
+function iscPortalDeparture39()
+{
+iscPortalDestination38();
+//iscPortalDeparture39Done
+}
+
+
+function iscOpen_in_Web_Browser41()
+{
+window.open(iscVlink_license)
+//iscOpen_in_Web_Browser41Done
+}
+
+
+function iscOpen_in_Web_Browser43()
+{
+window.open(iscVlink_web)
+//iscOpen_in_Web_Browser43Done
+}
+
+
+function iscOpen_in_Web_Browser45()
+{
+window.open(iscVlink_pHelp)
+//iscOpen_in_Web_Browser45Done
+}
+
+
+function iscAdd48()
+{
+iscVcount = iscVstart + iscVsl;
+iscConvertNumberToText49();
+//iscAdd48Done
+}
+
+
+function iscConvertNumberToText49()
+{
+iscVwrite = iscVcount + '';
+//iscConvertNumberToText49Done
+}
+
+
+function iscConvertTextToNumber50()
+{
+iscVn = parseInt(iscVnText);
+iscConvertTextToNumber51();
+//iscConvertTextToNumber50Done
+}
+
+
+function iscConvertTextToNumber51()
+{
+iscVsl = parseInt(iscVslText);
+iscConvertTextToNumber52();
+//iscConvertTextToNumber51Done
+}
+
+
+function iscConvertTextToNumber52()
+{
+iscVstart = parseInt(iscVstartText);
+iscIfThen23();
+//iscConvertTextToNumber52Done
+}
+
+
+function iscMessageBox53()
+{
+alert("The sum of the starting page and the pages per side should be less than or equal to the total of pages to print.");
+}
+
+
+function iscMessageBox54()
+{
+alert("The number of pages per side should be less than the total of pages to print.");
+}
+
+
+function iscMessageBox55()
+{
+alert("The starting page should be lower than the total of pages to print.");
+}
+
+
+function iscMessageBox56()
+{
+alert("You should print at least 1 page per side.");
+}
+
+
+function iscMessageBox57()
+{
+alert("Your print should start from page 1 forward.");
+}
+
+
+function iscMessageBox58()
+{
+alert("The document must have 2 pages at least.");
+}
+
+
+function iscAppQuit60()
+{
+//iscAppQuit60Done
+}
+
+
+function iscSetText61()
+{
+iscVwPar = iscVwrite;
+iscSetTextBox62();
+iscSetTextBox96();
+iscTargetIs6();
+//iscSetText61Done
+}
+
+
+function iscSetTextBox62()
+{
+document.getElementById("iscWindow151wImpar0").value = iscVwImpar;
+//iscSetTextBox62Done
+}
+
+
+function iscCombineText64()
+{
+iscVwrite = iscVwrite + iscVcountText;
+//iscCombineText64Done
+}
+
+
+function iscSetNumber69()
+{
+iscVqTest = 0;
+iscSetNumber135();
+//iscSetNumber69Done
+}
+
+
+function iscSetText77()
+{
+iscVwrite = iscVstartText;
+//iscSetText77Done
+}
+
+
+function iscCombineText78()
+{
+iscVwrite = iscVwrite + iscVguion;
+//iscCombineText78Done
+}
+
+
+function iscGetTextBox90()
+{
+iscVstartText = document.getElementById("iscWindow151start0").value;
+iscConvertTextToNumber50();
+//iscGetTextBox90Done
+}
+
+
+function iscGetTextBox93()
+{
+iscVnText = document.getElementById("iscWindow151n0").value;
+iscGetTextBox94();
+//iscGetTextBox93Done
+}
+
+
+function iscGetTextBox94()
+{
+iscVslText = document.getElementById("iscWindow151sl0").value;
+iscGetTextBox90();
+//iscGetTextBox94Done
+}
+
+
+function iscSetTextBox96()
+{
+document.getElementById("iscWindow151wPar0").value = iscVwPar;
+//iscSetTextBox96Done
+}
+
+
+function iscCombineText97()
+{
+iscVwrite = iscVwrite + iscVcoma;
+//iscCombineText97Done
+}
+
+
+function iscGetTextBox98()
+{
+iscVwImpar = document.getElementById("iscWindow151wImpar0").value;
+iscTargetIs7();
+//iscGetTextBox98Done
+}
+
+
+function iscGetTextBox99()
+{
+iscVwPar = document.getElementById("iscWindow151wPar0").value;
+iscTargetIs8();
+//iscGetTextBox99Done
+}
+
+
+function iscSetText100()
+{
+iscVwImpar = iscVwrite;
+iscAdd48();
+//iscSetText100Done
+}
+
+
+function iscIf_Linux113()
+{
+if (navigator.appVersion.indexOf("Linux") != -1 || navigator.appVersion.indexOf("X11") != -1 ){
+     var OS = "Linux";
+     iscRunShellScript47();
+//iscIf_Linux113Linux
+    }
+else {
+     var OS = "Other";
+     //iscIf_Linux113Else
+    }
+}
+
+
+function iscMessageBox115()
+{
+alert("Select the text with the mouse, right click on it and select Copy.");
+}
+
+
+function iscMessageBox116()
+{
+alert("The copy function is not yet available for the mobile version of dualPrint.");
+}
+
+
+function iscClipboard_Copy118()
+{
+iscTargetIs3();
+//iscClipboard_Copy118Done
+}
+
+
+function iscClipboard_Copy120()
+{
+iscTargetIs4();
+//iscClipboard_Copy120Done
+}
+
+
+function iscIf_Linux122()
+{
+if (navigator.appVersion.indexOf("Linux") != -1 || navigator.appVersion.indexOf("X11") != -1 ){
+     var OS = "Linux";
+     iscRunShellScript114();
+//iscIf_Linux122Linux
+    }
+else {
+     var OS = "Other";
+     //iscIf_Linux122Else
+    }
+}
+
+
+function iscSubtract123()
+{
+iscVqDifference = iscVqTest - iscVn;
+iscSubtract124();
+//iscSubtract123Done
+}
+
+
+function iscSubtract124()
+{
+iscVqDifference = iscVsl - iscVqDifference;
+iscAdd125();
+//iscSubtract124Done
+}
+
+
+function iscAdd125()
+{
+iscVcount = iscVcount + iscVqDifference;
+//iscAdd125Done
+}
+
+
+function iscAdd126()
+{
+iscVqTest = iscVqTest + iscVn1;
+//iscAdd126Done
+}
+
+
+function iscAdd127()
+{
+iscVqTest = iscVcount + iscVsl;
+//iscAdd127Done
+}
+
+
+function iscSubtract128()
+{
+iscVqTest = iscVqTest - iscVn1;
+//iscSubtract128Done
+}
+
+
+function iscAdd130()
+{
+iscVcount = iscVcount + iscVn1;
+//iscAdd130Done
+}
+
+
+function iscSubtract131()
+{
+iscVcount = iscVcount - iscVn1;
+//iscSubtract131Done
+}
+
+
+function iscAdd132()
+{
+iscVcount = iscVcount + iscVsl;
+//iscAdd132Done
+}
+
+
+function iscConvertNumberToText133()
+{
+iscVcountText = iscVcount + '';
+//iscConvertNumberToText133Done
+}
+
+
+function iscSetNumber134()
+{
+iscVcount = iscVstart;
+iscSetText77();
+//iscSetNumber134Done
+}
+
+
+function iscSetNumber135()
+{
+iscVqDifference = 0;
+iscSetNumber134();
+//iscSetNumber135Done
+}
+
+
+function iscAdd136()
+{
+iscVqTest = iscVstart + iscVsl;
+//iscAdd136Done
+}
+
+
+function iscAdd137()
+{
+iscVqTest = iscVqTest + iscVsl;
+//iscAdd137Done
+}
+
+
+function iscAdd138()
+{
+iscVn = iscVn + iscVn1;
+//iscAdd138Done
+}
+
+
+function iscSetNumber139()
+{
+iscVwAbout = 1;
+iscWindow1();
+//iscSetNumber139Done
+}
+
+
+function iscSetNumber140()
+{
+iscVwAbout = 0;
+//iscSetNumber140Done
+}
+
+
+function iscIfThen141()
+{
+if (iscVqTest < iscVn)
+{
+iscCombineText97();
+iscPortalDeparture30();
+//iscIfThen141True
+
+}
+else
+{
+iscIfThen143();
+//iscIfThen141False
+}
+}
+
+
+function iscIfThen142()
+{
+if (iscVqTest < iscVn)
+{
+iscCombineText78();
+iscPortalDeparture37();
+//iscIfThen142True
+
+}
+else
+{
+iscIfThen144();
+//iscIfThen142False
+}
+}
+
+
+function iscIfThen143()
+{
+if (iscVqTest == iscVn)
+{
+iscCombineText97();
+iscAdd132();
+iscAdd130();
+iscConvertNumberToText133();
+iscCombineText64();
+//iscIfThen143True
+
+}
+else
+{
+//iscIfThen143False
+}
+}
+
+
+function iscIfThen144()
+{
+if (iscVqTest == iscVn)
+{
+iscCombineText78();
+iscAdd132();
+iscSubtract131();
+iscConvertNumberToText133();
+iscCombineText64();
+//iscIfThen144True
+
+}
+else
+{
+iscCombineText78();
+iscSubtract123();
+iscSubtract131();
+iscConvertNumberToText133();
+iscConvertNumberToText133();
+iscCombineText64();
+//iscIfThen144False
+}
+}
+
+
+function iscDivide145()
+{
+iscVqDifference = iscVn / iscVn2;
+//iscDivide145Done
+}
+
+
+function iscSetCanvasPicture146()
+{
+var canvas = document.getElementById("iscWindow151header0");
+var context = canvas.getContext("2d");
+var cat = new Image();
+cat.src = "ISCimages/header.jpg";
+cat.onload = function() {
+context.drawImage(cat, 0, 0);
+};
+//iscSetCanvasPicture146Done
+}
+
+
+function iscSetCanvasPicture147()
+{
+var canvas = document.getElementById("iscWindow151CP0");
+var context = canvas.getContext("2d");
+var cat = new Image();
+cat.src = "ISCimages/copy.gif";
+cat.onload = function() {
+context.drawImage(cat, 0, 0);
+};
+//iscSetCanvasPicture147Done
+}
+
+
+function iscSetCanvasPicture148()
+{
+var canvas = document.getElementById("iscWindow151CI0");
+var context = canvas.getContext("2d");
+var cat = new Image();
+cat.src = "ISCimages/copy.gif";
+cat.onload = function() {
+context.drawImage(cat, 0, 0);
+};
+//iscSetCanvasPicture148Done
+}
+
+
+function iscCloseWindow149()
+{
+document.getElementById("iscWindow1about1").style.visibility = "hidden";
+iscWindow1Closed();
+iscSetNumber140();
+//iscCloseWindow149Done
+}
+
+
+function iscSetCanvasPicture150()
+{
+var canvas = document.getElementById("iscWindow1icon0");
+var context = canvas.getContext("2d");
+var cat = new Image();
+cat.src = "ISCimages/dualprint.gif";
+cat.onload = function() {
+context.drawImage(cat, 0, 0);
+};
+//iscSetCanvasPicture150Done
+}
+
+
+function iscWindow151nChanged()
+{
+//iscWindow151nChanged
+}
+
+
+function iscWindow151slChanged()
+{
+//iscWindow151slChanged
+}
+
+
+function iscWindow151bStartClicked()
+{
+iscGetTextBox93();
+//iscWindow151bStartClicked
+}
+
+
+function iscWindow151startChanged()
+{
+//iscWindow151startChanged
+}
+
+
+function iscWindow151wImparChanged()
+{
+iscSetTextBox62();
+//iscWindow151wImparChanged
+}
+
+
+function iscWindow151wParChanged()
+{
+iscSetTextBox96();
+//iscWindow151wParChanged
+}
+
+
+function iscWindow151CIClicked()
+{
+iscGetTextBox98();
+//iscWindow151CIClicked
+}
+
+
+function iscWindow151CPClicked()
+{
+iscGetTextBox99();
+//iscWindow151CPClicked
+}
+
+
+function iscWindow151aboutClicked()
+{
+iscIfThen5();
+//iscWindow151aboutClicked
+}
+
+
+function iscWindow151paperClicked()
+{
+iscOpen_in_Web_Browser45();
+//iscWindow151paperClicked
+}
+
+
+function iscWindow151headerClicked()
+{
+//iscWindow151headerClicked
+}
+
+
+function iscWindow151()
+{
+new Draggable('iscWindow151main1');
+document.getElementById("iscWindow151main1").style.visibility = "visible";
+//iscWindow151Done
+iscSetCanvasPicture148();
+iscSetCanvasPicture147();
+iscSetCanvasPicture146();
+//iscWindow151Opened
+}
+
+function iscWindow151Closed()
+{
+iscAppQuit60();
+//iscWindow151Closed
+}
+
+
+function iscWindow1iconClicked()
+{
+//iscWindow1iconClicked
+}
+
+
+function iscWindow1closeClicked()
+{
+iscCloseWindow149();
+//iscWindow1closeClicked
+}
+
+
+function iscWindow1webClicked()
+{
+iscOpen_in_Web_Browser43();
+//iscWindow1webClicked
+}
+
+
+function iscWindow1licenseClicked()
+{
+iscOpen_in_Web_Browser41();
+//iscWindow1licenseClicked
+}
+
+
+function iscWindow1()
+{
+new Draggable('iscWindow1about1');
+document.getElementById("iscWindow1about1").style.visibility = "visible";
+//iscWindow1Done
+iscSetCanvasPicture150();
+//iscWindow1Opened
+}
+
+function iscWindow1Closed()
+{
+iscSetNumber140();
+//iscWindow1Closed
+}
+
+
+//EndOfFunctions
+
+</script>
+</head>
+<body>
+<div id="iscWindow151main1" class="window" style="visibility:hidden;height:466px;width:320px;x:20px;y:20px;">
+<h1>dualPrint</h1>
+<div class="windowinner">
+<div style="position: absolute; left: 10px; top: 160px;">
+<label id="iscWindow151nQ0">Which would be the last page to print?</label>
+</div>
+<div style="position: absolute; left: 10px; top: 215px;">
+<label id="iscWindow151slidesQ0">How many slides or pages per side?</label>
+</div>
+<div style="position: absolute; left: 40px; top: 155px;">
+<input type="text" id="iscWindow151n0" style='width:90px;' value="12" onChange="iscWindow151nChanged()">
+</div>
+<div style="position: absolute; left: 40px; top: 209px;">
+<input type="text" id="iscWindow151sl0" style='width:90px;' value="4" onChange="iscWindow151slChanged()">
+</div>
+<div style="position: absolute; left: 98px; top: 245px;">
+<input type="button" id="iscWindow151bStart0" onClick="iscWindow151bStartClicked()" value="Generate Print Sets" />
+</div>
+<div style="position: absolute; left: 10px; top: 106px;">
+<label id="iscWindow151inicioQ0">Which would be the first page to print?</label>
+</div>
+<div style="position: absolute; left: 40px; top: 101px;">
+<input type="text" id="iscWindow151start0" style='width:90px;' value="1" onChange="iscWindow151startChanged()">
+</div>
+<div style="position: absolute; left: 4px; top: 303px;">
+<label id="iscWindow151infoImpar0">Odd, set of pages to print first.</label>
+</div>
+<div style="position: absolute; left: 56px; top: 305px;">
+<input type="text" id="iscWindow151wImpar0" style='width:240px;' value="" onChange="iscWindow151wImparChanged()">
+</div>
+<div style="position: absolute; left: 4px; top: 362px;">
+<label id="iscWindow151parInfo0">Even, set of pages to print on the back.</label>
+</div>
+<div style="position: absolute; left: 57px; top: 364px;">
+<input type="text" id="iscWindow151wPar0" style='width:240px;' value="" onChange="iscWindow151wParChanged()">
+</div>
+<div style="position: absolute; left: 15px; top: 325px;">
+<canvas id="iscWindow151CI0" width="32px" height="32px" onClick="iscWindow151CIClicked()"/></canvas>
+</div>
+<div style="position: absolute; left: 14px; top: 383px;">
+<canvas id="iscWindow151CP0" width="32px" height="32px" onClick="iscWindow151CPClicked()"/></canvas>
+</div>
+<div style="position: absolute; left: 166px; top: 405px;">
+<input type="button" id="iscWindow151about0" onClick="iscWindow151aboutClicked()" value="About dualPrint" />
+</div>
+<div style="position: absolute; left: 18px; top: 405px;">
+<input type="button" id="iscWindow151paper0" onClick="iscWindow151paperClicked()" value="Printing help" />
+</div>
+<div style="position: absolute; left: 0px; top: 28px;">
+<canvas id="iscWindow151header0" width="320px" height="68px" onClick="iscWindow151headerClicked()"/></canvas>
+</div>
+</div>
+</div>
+
+<div id="iscWindow1about1" class="window" style="visibility:hidden;height:408px;width:310px;x:20px;y:20px;">
+<h1>About dualPrint</h1>
+<div class="windowinner">
+<div style="position: absolute; left: 115px; top: 40px;">
+<canvas id="iscWindow1icon0" width="90px" height="90px" onClick="iscWindow1iconClicked()"/></canvas>
+</div>
+<div style="position: absolute; left: 10px; top: 183px;">
+<label id="iscWindow1info0">dualPrint is a multi-platform application that</label>
+</div>
+<div style="position: absolute; left: 10px; top: 253px;">
+<label id="iscWindow1rights0">Copyright © 2012 Javier O. Cordero Pérez</label>
+</div>
+<div style="position: absolute; left: 212px; top: 338px;">
+<input type="button" id="iscWindow1close0" onClick="iscWindow1closeClicked()" value="Close" />
+</div>
+<div style="position: absolute; left: 18px; top: 338px;">
+<input type="button" id="iscWindow1web0" onClick="iscWindow1webClicked()" value="Website" />
+</div>
+<div style="position: absolute; left: 10px; top: 313px;">
+<label id="iscWindow1MIT0">This software is under the MIT License</label>
+</div>
+<div style="position: absolute; left: 120px; top: 158px;">
+<label id="iscWindow1version0">1.2</label>
+</div>
+<div style="position: absolute; left: 120px; top: 136px;">
+<label id="iscWindow1dualprint0">dualPrint</label>
+</div>
+<div style="position: absolute; left: 110px; top: 338px;">
+<input type="button" id="iscWindow1license0" onClick="iscWindow1licenseClicked()" value="License" />
+</div>
+<div style="position: absolute; left: 10px; top: 283px;">
+<label id="iscWindow1illumination0">Built in Illumination Software Creator</label>
+</div>
+<div style="position: absolute; left: 10px; top: 203px;">
+<label id="iscWindow1info10">generates print sets for multiple pages per</label>
+</div>
+<div style="position: absolute; left: 10px; top: 223px;">
+<label id="iscWindow1info20">sheet, two-sided, printing.</label>
+</div>
+<div style="position: absolute; left: 10px; top: 333px;">
+<label id="iscWindow1MIT10">For more information click License.</label>
+</div>
+</div>
+</div>
+
+<!-- EndOfHTML -->
+
+</body>
+</html>

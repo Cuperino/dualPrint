@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/iscwindow11" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<WebView android:id="@+id/iscWindow11WebBrowser0"
+android:layout_width="fill_parent"
+android:layout_marginLeft="0px"
+android:layout_marginRight="0px"
+android:layout_height="fill_parent"
+android:layout_marginBottom="40px"
+android:layout_marginTop="0px"
+>
+</WebView>
+<Button android:id="@+id/iscWindow11return0" android:text="Return to dualPrint"
+android:layout_width="fill_parent"
+android:layout_marginLeft="0px"
+android:layout_marginRight="0px"
+android:layout_height="40px"
+android:layout_marginBottom="0px"
+android:layout_alignParentBottom="true"
+>
+</Button>
+</RelativeLayout>

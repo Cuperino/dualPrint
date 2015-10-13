@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/iscwindow178" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<TextView android:id="@+id/iscWindow178nQ0"
+ android:text="Which would be the last page to print?"
+android:layout_width="fill_parent"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:layout_height="20dp"
+android:layout_marginTop="134dp"
+android:layout_alignParentTop="true"
+>
+</TextView>
+<TextView android:id="@+id/iscWindow178slidesQ0"
+ android:text="How many slides or pages per side?"
+android:layout_width="fill_parent"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:layout_height="20dp"
+android:layout_marginTop="198dp"
+android:layout_alignParentTop="true"
+>
+</TextView>
+
+<EditText
+    android:id="@+id/iscWindow178n0"
+    android:layout_width="90dp"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="156dp"
+    android:inputType="number"
+    android:text="12" >
+
+</EditText>
+
+<EditText
+    android:id="@+id/iscWindow178sl0"
+    android:layout_width="90dp"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="220dp"
+    android:inputType="number"
+    android:text="4" >
+
+</EditText>
+<Button android:id="@+id/iscWindow178bStart0" android:text="Generate Print Sets"
+android:layout_width="fill_parent"
+android:layout_marginLeft="138dp"
+android:layout_marginRight="12dp"
+android:layout_height="42dp"
+android:layout_marginTop="219dp"
+android:layout_alignParentTop="true"
+>
+</Button>
+<TextView android:id="@+id/iscWindow178inicioQ0"
+ android:text="Which page would you like to print first?"
+android:layout_width="fill_parent"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:layout_height="20dp"
+android:layout_marginTop="71dp"
+android:layout_alignParentTop="true"
+>
+</TextView>
+
+<EditText
+    android:id="@+id/iscWindow178start0"
+    android:layout_width="90dp"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="92dp"
+    android:inputType="number"
+    android:text="1" >
+
+</EditText>
+<TextView android:id="@+id/iscWindow178infoImpar0"
+ android:text="Odd, set of pages to print first."
+android:layout_width="fill_parent"
+android:layout_marginLeft="2dp"
+android:layout_marginRight="2dp"
+android:layout_height="20dp"
+android:layout_marginTop="262dp"
+android:layout_alignParentTop="true"
+>
+</TextView>
+
+<EditText
+    android:id="@+id/iscWindow178wImpar0"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="48dp"
+    android:layout_marginRight="9dp"
+    android:layout_marginTop="282dp"
+    android:inputType="none"
+    android:text="" >
+
+</EditText>
+<TextView android:id="@+id/iscWindow178parInfo0"
+ android:text="Even, set of pages to print on the back."
+android:layout_width="fill_parent"
+android:layout_marginLeft="1dp"
+android:layout_marginRight="3dp"
+android:layout_height="20dp"
+android:layout_marginTop="327dp"
+android:layout_alignParentTop="true"
+>
+</TextView>
+
+<EditText
+    android:id="@+id/iscWindow178wPar0"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="49dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="347dp"
+    android:inputType="none"
+    android:text="" >
+
+</EditText>
+<ImageView android:id="@+id/iscWindow178CI0"
+android:layout_width="38dp"
+android:layout_marginRight="276dp"
+android:layout_alignParentRight="true"
+android:layout_height="38dp"
+android:layout_marginTop="285dp"
+android:layout_alignParentTop="true"
+>
+</ImageView>
+<ImageView android:id="@+id/iscWindow178CP0"
+android:layout_width="38dp"
+android:layout_marginRight="276dp"
+android:layout_alignParentRight="true"
+android:layout_height="38dp"
+android:layout_marginTop="351dp"
+android:layout_alignParentTop="true"
+>
+</ImageView>
+<Button android:id="@+id/iscWindow178about0" android:text="About"
+android:layout_width="156dp"
+android:layout_marginLeft="161dp"
+android:layout_alignParentLeft="true"
+android:layout_height="44dp"
+android:layout_marginTop="393dp"
+android:layout_alignParentTop="true"
+>
+</Button>
+<Button android:id="@+id/iscWindow178paper0" android:text="Print assist"
+android:layout_width="156dp"
+android:layout_marginLeft="3dp"
+android:layout_alignParentLeft="true"
+android:layout_height="44dp"
+android:layout_marginTop="393dp"
+android:layout_alignParentTop="true"
+>
+</Button>
+<ImageView android:id="@+id/iscWindow178header0"
+android:layout_width="fill_parent"
+android:layout_marginLeft="0dp"
+android:layout_marginRight="0dp"
+android:layout_height="68dp"
+android:layout_marginTop="0dp"
+android:layout_alignParentTop="true"
+>
+</ImageView>
+</RelativeLayout>

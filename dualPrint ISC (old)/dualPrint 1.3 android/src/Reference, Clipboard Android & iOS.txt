@@ -1,0 +1,21 @@
+-=Documentación oficial=-
+	Android
+https://developer.android.com/guide/topics/text/copy-paste.html
+
+ia.
+  // get the char sequence
+
+  CharSequence displayContents = resultHandler.getDisplayContents();
+  ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+
+// set the contents
+  clipboard.setText(displayContents)
+
+ib.
+  // get the char sequence
+
+  CharSequence displayContents = resultHandler.getDisplayContents();
+  ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+
+// set the contents
+  clipboard.setText(ISCVariable1)

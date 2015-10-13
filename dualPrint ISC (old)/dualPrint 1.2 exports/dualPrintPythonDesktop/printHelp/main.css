@@ -1,0 +1,125 @@
+a { color: #95AE36;
+}
+a:hover { text-decoration: none; color: #C73633;
+}
+.image { float: left; margin: 0 20px 0 0;
+}
+/*Main Table Edges*/
+#grTLeft {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(bottom right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -moz-linear-gradient(bottom right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -o-linear-gradient(bottom right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -ms-linear-gradient(bottom right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: linear-gradient(bottom right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+}
+#grTop {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(bottom, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -moz-linear-gradient(bottom, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -o-linear-gradient(bottom, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -ms-linear-gradient(bottom, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: linear-gradient(bottom, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+}
+#grTRight {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(bottom left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -moz-linear-gradient(bottom left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -o-linear-gradient(bottom left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -ms-linear-gradient(bottom left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: linear-gradient(bottom left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+}
+#grLeft {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(right, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -moz-linear-gradient(right, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -o-linear-gradient(right, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -ms-linear-gradient(right, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: linear-gradient(right, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+}
+#grRight {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(left, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: linear-gradient(left, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+}
+#grBLeft {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(top right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -moz-linear-gradient(top right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -o-linear-gradient(top right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -ms-linear-gradient(top right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: linear-gradient(top right, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+}
+#grBottom {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(top, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -moz-linear-gradient(top, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+background-image: linear-gradient(top, #ffffff 0%, rgba(255,255,255,0.0) 100%);
+}
+#grBRight {
+background-image: #ffffff;
+background-image: -webkit-linear-gradient(top left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -moz-linear-gradient(top left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -o-linear-gradient(top left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: -ms-linear-gradient(top left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+background-image: linear-gradient(top left, #ffffff 0%, rgba(255,255,255,0.0) 50%);
+}
+/*3D Horizontal Bar*/
+.H3D {
+position:relative;
+height: 36px;
+top:-12px;
+left:-18px;
+margin-right:-36px;
+margin-bottom:-10px;
+background-image: #8fa834;
+background-image: -webkit-linear-gradient(top, #87a12c 0%, #9eb643 80%, #87a12c 90%);
+background-image: -moz-linear-gradient(top, #87a12c 0%, #9eb643 80%, #87a12c 90%);
+background-image: -o-linear-gradient(top, #87a12c 0%, #9eb643 80%, #87a12c 90%);
+background-image: -ms-linear-gradient(top, #87a12c 0%, #9eb643 80%, #87a12c 90%);
+background-image: linear-gradient(top, #87a12c 0%, #9eb643 80%, #87a12c 90%);
+}
+.edge3DLeft {
+position:absolute;
+vertical-align: middle;
+width:7px;
+height:7px;
+bottom:0px;
+float:left;
+left:0px;
+background-image: #fdfeff;
+background-image: -webkit-linear-gradient(bottom left, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: -moz-linear-gradient(bottom left, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: -o-linear-gradient(bottom left, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: -ms-linear-gradient(bottom left, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: linear-gradient(bottom left, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+}
+.edge3DRight {
+position:absolute;
+width:7px;
+height:7px;
+bottom:0px;
+float:right;
+right:0px;
+background-image: #fdfeff;
+background-image: -webkit-linear-gradient(bottom right, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: -moz-linear-gradient(bottom right, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: -o-linear-gradient(bottom right, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: -ms-linear-gradient(bottom right, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+background-image: linear-gradient(bottom right, #f9fcfe 0%, #ffffff 49%, rgba(255,255,255,0.0) 51%);
+}
+/*Menu*/
+#H3D ul { margin: 0; padding: 0; list-style: none; position:absolute;
+}
+#H3D li { display: inline;
+}
+#H3D a { display: block; float: left; width: auto; height: 25px; padding:
+7px 18px 0px 18px; text-align: center; text-decoration: underline; color: #FFFFFF; font-weight: bold;
+}
+#H3D a:hover { background: #A71615 url(images/link1.gif) repeat-x left top;
+}

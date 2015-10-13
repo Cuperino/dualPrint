@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/copy.gif</file>
+        <file>images/dualprint.gif</file>
+        <file>images/header.jpg</file>
+    </qresource>
+</RCC>

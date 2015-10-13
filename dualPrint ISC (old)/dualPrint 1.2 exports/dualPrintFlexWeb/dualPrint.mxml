@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:me="components.*" xmlns:s="library://ns.adobe.com/flex/spark" layout="absolute" initialize="iscApp1Launched()" >
+
+<mx:Script><![CDATA[
+
+import mx.controls.Alert;
+import mx.events.CloseEvent;
+import flash.display.BitmapData;
+import flash.system.Capabilities;
+import flash.system.Capabilities;
+//EndImports
+
+var iscVwImpar:String = "";
+var iscVqDifference:int = 0;
+var iscVqTest:int = 0;
+var iscVcountText:String = "countText";
+var iscVn1:int = 1;
+var iscVwrite:String = "write";
+var iscVwPar:String = "";
+var iscVstartText:String = "1";
+var iscVslText:String = "4";
+var iscVnText:String = "12";
+var iscVcount:int = 0;
+var iscVstart:int = 1;
+var iscVsl:int = 4;
+var iscVn:int = 12;
+var iscVguion:String = "-";
+var iscVcoma:String = ",";
+var iscVn2:int = 2;
+var iscVNotifyOSD_Imp:String = "notify-send 'dualPrint: Odd Copy' 'The first print set has been copied to the clipboard. You may paste it in the print dialog.'";
+var iscVNotifyOSD_Par:String = "notify-send 'dualPrint: Even Copy' 'The seccond print set has been copied to the clipboard. You may paste it in the print dialog.'";
+var iscVlink_web:String = "http://sourceforge.net/projects/dualprint/";
+var iscVlink_license:String = "http://www.opensource.org/licenses/MIT";
+var iscVwAbout:int = 0;
+var iscVlink_pHelp:String = "redirect.html";
+
+[Bindable]
+[Embed(source="ISCimages/header.jpg")]
+public var ischeaderjpg:Class;
+[Bindable]
+[Embed(source="ISCimages/copy.jpg")]
+public var isccopyjpg:Class;
+[Bindable]
+[Embed(source="ISCimages/dualprint.jpg")]
+public var iscdualprintjpg:Class;
+
+//EndOfGlobalVariables
+
+private function iscApp1Launched():void
+{
+iscWindow151()
+//iscApp1Launched
+}
+
+private function iscTargetIs3():void
+{
+//iscTargetIs3AdobeFlex
+}
+
+
+private function iscTargetIs4():void
+{
+//iscTargetIs4AdobeFlex
+}
+
+
+private function iscIfThen5():void
+{
+if (iscVwAbout == iscVn1)
+{
+//iscIfThen5True
+
+}
+else
+{
+iscSetNumber139();
+//iscIfThen5False
+}
+}
+
+
+private function iscTargetIs6():void
+{
+iscClipboard_Copy118();
+//iscTargetIs6AdobeFlex
+}
+
+
+private function iscTargetIs7():void
+{
+iscClipboard_Copy118();
+//iscTargetIs7AdobeFlex
+}
+
+
+private function iscTargetIs8():void
+{
+iscClipboard_Copy120();
+//iscTargetIs8AdobeFlex
+}
+
+
+private function iscPortalDestination9():void
+{
+iscSetNumber69();
+iscAdd132();
+iscAdd130();
+iscAdd138();
+iscDoWhile10();
+//iscPortalDestination9Arrived
+}
+
+
+private function iscDoWhile10():void
+{
+while (iscVcount < iscVn)
+{
+iscCombineText97();
+iscConvertNumberToText133();
+iscCombineText64();
+iscAdd132();
+iscAdd130();
+//iscDoWhile10Loop
+
+}
+iscSetText100();
+iscAdd132();
+iscAdd130();
+iscDoWhile11();
+//iscDoWhile10Finished
+}
+
+
+private function iscDoWhile11():void
+{
+while (iscVcount < iscVn)
+{
+iscCombineText97();
+iscConvertNumberToText133();
+iscCombineText64();
+iscAdd132();
+iscAdd130();
+//iscDoWhile11Loop
+
+}
+iscSetText61();
+//iscDoWhile11Finished
+}
+
+
+private function iscPortalDeparture12():void
+{
+iscPortalDestination31();
+//iscPortalDeparture12Done
+}
+
+
+private function iscIfThen13():void
+{
+if (iscVqTest > iscVn)
+{
+iscPortalDeparture12();
+//iscIfThen13True
+
+}
+else
+{
+iscPortalDeparture14();
+//iscIfThen13False
+}
+}
+
+
+private function iscPortalDeparture14():void
+{
+iscPortalDestination33();
+//iscPortalDeparture14Done
+}
+
+
+private function iscIfThen15():void
+{
+if (iscVqTest == iscVqDifference)
+{
+iscPortalDeparture14();
+//iscIfThen15True
+
+}
+else
+{
+iscAdd136();
+iscAdd137();
+iscIfThen13();
+//iscIfThen15False
+}
+}
+
+
+private function iscIfThen16():void
+{
+if (iscVqTest < iscVqDifference)
+{
+iscPortalDeparture14();
+//iscIfThen16True
+
+}
+else
+{
+iscIfThen15();
+//iscIfThen16False
+}
+}
+
+
+private function iscPortalDeparture17():void
+{
+iscPortalDestination32();
+//iscPortalDeparture17Done
+}
+
+
+private function iscIfThen18():void
+{
+if (iscVqTest == iscVn)
+{
+iscPortalDeparture17();
+//iscIfThen18True
+
+}
+else
+{
+iscDivide145();
+iscIfThen16();
+//iscIfThen18False
+}
+}
+
+
+private function iscPortalDeparture19():void
+{
+iscPortalDestination9();
+//iscPortalDeparture19Done
+}
+
+
+private function iscIfThen20():void
+{
+if (iscVsl == iscVn1)
+{
+iscPortalDeparture19();
+//iscIfThen20True
+
+}
+else
+{
+iscIfThen18();
+//iscIfThen20False
+}
+}
+
+
+private function iscIfThen21():void
+{
+if (iscVqTest > iscVn)
+{
+iscMessageBox53();
+//iscIfThen21True
+
+}
+else
+{
+iscIfThen20();
+//iscIfThen21False
+}
+}
+
+
+private function iscIfThen22():void
+{
+if (iscVsl < iscVn)
+{
+iscAdd136();
+iscIfThen21();
+//iscIfThen22True
+
+}
+else
+{
+iscMessageBox54();
+//iscIfThen22False
+}
+}
+
+
+private function iscIfThen23():void
+{
+if (iscVn < iscVn2)
+{
+iscMessageBox58();
+//iscIfThen23True
+
+}
+else
+{
+iscIfThen24();
+//iscIfThen23False
+}
+}
+
+
+private function iscIfThen24():void
+{
+if (iscVstart < iscVn1)
+{
+iscMessageBox57();
+//iscIfThen24True
+
+}
+else
+{
+iscIfThen25();
+//iscIfThen24False
+}
+}
+
+
+private function iscIfThen25():void
+{
+if (iscVsl < iscVn1)
+{
+iscMessageBox56();
+//iscIfThen25True
+
+}
+else
+{
+iscIfThen26();
+//iscIfThen25False
+}
+}
+
+
+private function iscIfThen26():void
+{
+if (iscVstart < iscVn)
+{
+iscIfThen22();
+//iscIfThen26True
+
+}
+else
+{
+iscMessageBox55();
+//iscIfThen26False
+}
+}
+
+
+private function iscPortalDestination27():void
+{
+iscAdd127();
+iscSubtract128();
+iscIfThen142();
+//iscPortalDestination27Arrived
+}
+
+
+private function iscPortalDeparture28():void
+{
+iscPortalDestination27();
+//iscPortalDeparture28Done
+}
+
+
+private function iscPortalDestination29():void
+{
+iscAdd132();
+iscAdd130();
+iscConvertNumberToText133();
+iscCombineText64();
+iscPortalDeparture28();
+//iscPortalDestination29Arrived
+}
+
+
+private function iscPortalDeparture30():void
+{
+iscPortalDestination29();
+//iscPortalDeparture30Done
+}
+
+
+private function iscPortalDestination31():void
+{
+iscSetNumber69();
+iscCombineText78();
+iscPortalDeparture37();
+iscSetText100();
+iscCombineText78();
+iscAdd127();
+iscSubtract128();
+iscSubtract123();
+iscSubtract131();
+iscConvertNumberToText133();
+iscCombineText64();
+iscSetText61();
+//iscPortalDestination31Arrived
+}
+
+
+private function iscPortalDestination32():void
+{
+iscSetNumber69();
+iscCombineText78();
+iscPortalDeparture37();
+iscSetText100();
+iscSetText61();
+//iscPortalDestination32Arrived
+}
+
+
+private function iscPortalDestination33():void
+{
+iscSetNumber69();
+iscCombineText78();
+iscPortalDeparture39();
+//iscPortalDestination33Arrived
+}
+
+
+private function iscPortalDestination34():void
+{
+iscAdd127();
+iscAdd126();
+iscIfThen141();
+//iscPortalDestination34Arrived
+}
+
+
+private function iscPortalDestination35():void
+{
+iscAdd132();
+iscSubtract131();
+iscConvertNumberToText133();
+iscCombineText64();
+iscPortalDeparture36();
+//iscPortalDestination35Arrived
+}
+
+
+private function iscPortalDeparture36():void
+{
+iscPortalDestination34();
+//iscPortalDeparture36Done
+}
+
+
+private function iscPortalDeparture37():void
+{
+iscPortalDestination35();
+//iscPortalDeparture37Done
+}
+
+
+private function iscPortalDestination38():void
+{
+iscPortalDeparture37();
+iscSetText100();
+iscCombineText78();
+iscPortalDeparture37();
+iscSetText61();
+//iscPortalDestination38Arrived
+}
+
+
+private function iscPortalDeparture39():void
+{
+iscPortalDestination38();
+//iscPortalDeparture39Done
+}
+
+
+private function iscOpen_in_Web_Browser41():void
+{
+var MyURL:URLRequest = new URLRequest(iscVlink_license);
+navigateToURL(MyURL, "_blank");
+//iscOpen_in_Web_Browser41Done
+}
+
+
+private function iscOpen_in_Web_Browser43():void
+{
+var MyURL:URLRequest = new URLRequest(iscVlink_web);
+navigateToURL(MyURL, "_blank");
+//iscOpen_in_Web_Browser43Done
+}
+
+
+private function iscOpen_in_Web_Browser45():void
+{
+var MyURL:URLRequest = new URLRequest(iscVlink_pHelp);
+navigateToURL(MyURL, "_blank");
+//iscOpen_in_Web_Browser45Done
+}
+
+
+private function iscRunShellScript47():void
+{
+//iscRunShellScript47Done
+}
+
+
+private function iscAdd48():void
+{
+iscVcount = iscVstart + iscVsl;
+iscConvertNumberToText49();
+//iscAdd48Done
+}
+
+
+private function iscConvertNumberToText49():void
+{
+iscVwrite = String(iscVcount);
+//iscConvertNumberToText49Done
+}
+
+
+private function iscConvertTextToNumber50():void
+{
+iscVn = parseInt(iscVnText);
+iscConvertTextToNumber51();
+//iscConvertTextToNumber50Done
+}
+
+
+private function iscConvertTextToNumber51():void
+{
+iscVsl = parseInt(iscVslText);
+iscConvertTextToNumber52();
+//iscConvertTextToNumber51Done
+}
+
+
+private function iscConvertTextToNumber52():void
+{
+iscVstart = parseInt(iscVstartText);
+iscIfThen23();
+//iscConvertTextToNumber52Done
+}
+
+
+private function iscMessageBox53():void
+{
+Alert.show("The sum of the starting page and the pages per side should be less than or equal to the total of pages to print.", "", Alert.OK, this, iscMessageBox53CloseEvent);
+}
+
+
+private function iscMessageBox53CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox53Closed
+}
+else
+{
+}
+}
+
+
+private function iscMessageBox54():void
+{
+Alert.show("The number of pages per side should be less than the total of pages to print.", "", Alert.OK, this, iscMessageBox54CloseEvent);
+}
+
+
+private function iscMessageBox54CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox54Closed
+}
+else
+{
+}
+}
+
+
+private function iscMessageBox55():void
+{
+Alert.show("The starting page should be lower than the total of pages to print.", "", Alert.OK, this, iscMessageBox55CloseEvent);
+}
+
+
+private function iscMessageBox55CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox55Closed
+}
+else
+{
+}
+}
+
+
+private function iscMessageBox56():void
+{
+Alert.show("You should print at least 1 page per side.", "", Alert.OK, this, iscMessageBox56CloseEvent);
+}
+
+
+private function iscMessageBox56CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox56Closed
+}
+else
+{
+}
+}
+
+
+private function iscMessageBox57():void
+{
+Alert.show("Your print should start from page 1 forward.", "", Alert.OK, this, iscMessageBox57CloseEvent);
+}
+
+
+private function iscMessageBox57CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox57Closed
+}
+else
+{
+}
+}
+
+
+private function iscMessageBox58():void
+{
+Alert.show("The document must have 2 pages at least.", "", Alert.OK, this, iscMessageBox58CloseEvent);
+}
+
+
+private function iscMessageBox58CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox58Closed
+}
+else
+{
+}
+}
+
+
+private function iscAppQuit60():void
+{
+//iscAppQuit60Done
+}
+
+
+private function iscSetText61():void
+{
+iscVwPar = iscVwrite;
+iscSetTextBox62();
+iscSetTextBox96();
+iscTargetIs6();
+//iscSetText61Done
+}
+
+
+private function iscSetTextBox62():void
+{
+iscWindow151wImpar0.text = iscVwImpar;
+//iscSetTextBox62Done
+}
+
+
+private function iscCombineText64():void
+{
+iscVwrite = iscVwrite + iscVcountText;
+//iscCombineText64Done
+}
+
+
+private function iscSetNumber69():void
+{
+iscVqTest = 0;
+iscSetNumber135();
+//iscSetNumber69Done
+}
+
+
+private function iscSetText77():void
+{
+iscVwrite = iscVstartText;
+//iscSetText77Done
+}
+
+
+private function iscCombineText78():void
+{
+iscVwrite = iscVwrite + iscVguion;
+//iscCombineText78Done
+}
+
+
+private function iscGetTextBox90():void
+{
+iscVstartText = iscWindow151start0.text;
+iscConvertTextToNumber50();
+//iscGetTextBox90Done
+}
+
+
+private function iscGetTextBox93():void
+{
+iscVnText = iscWindow151n0.text;
+iscGetTextBox94();
+//iscGetTextBox93Done
+}
+
+
+private function iscGetTextBox94():void
+{
+iscVslText = iscWindow151sl0.text;
+iscGetTextBox90();
+//iscGetTextBox94Done
+}
+
+
+private function iscSetTextBox96():void
+{
+iscWindow151wPar0.text = iscVwPar;
+//iscSetTextBox96Done
+}
+
+
+private function iscCombineText97():void
+{
+iscVwrite = iscVwrite + iscVcoma;
+//iscCombineText97Done
+}
+
+
+private function iscGetTextBox98():void
+{
+iscVwImpar = iscWindow151wImpar0.text;
+iscTargetIs7();
+//iscGetTextBox98Done
+}
+
+
+private function iscGetTextBox99():void
+{
+iscVwPar = iscWindow151wPar0.text;
+iscTargetIs8();
+//iscGetTextBox99Done
+}
+
+
+private function iscSetText100():void
+{
+iscVwImpar = iscVwrite;
+iscAdd48();
+//iscSetText100Done
+}
+
+
+private function iscIf_Linux113():void
+{
+var os:String = flash.system.Capabilities.os.substr(0, 3);
+    if (os == "Linux") {
+          var OS:String = "Linux";
+          iscRunShellScript47();
+//iscIf_Linux113Linux
+        } else {
+          var OS:String = "Other";
+          //iscIf_Linux113Else
+        }
+}
+
+
+private function iscRunShellScript114():void
+{
+//iscRunShellScript114Done
+}
+
+
+private function iscMessageBox115():void
+{
+Alert.show("Select the text with the mouse, right click on it and select Copy.", "", Alert.OK, this, iscMessageBox115CloseEvent);
+}
+
+
+private function iscMessageBox115CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox115Closed
+}
+else
+{
+}
+}
+
+
+private function iscMessageBox116():void
+{
+Alert.show("The copy function is not yet available for the mobile version of dualPrint.", "", Alert.OK, this, iscMessageBox116CloseEvent);
+}
+
+
+private function iscMessageBox116CloseEvent(event:CloseEvent):void
+{
+if(event.detail == Alert.OK)
+{
+//iscMessageBox116Closed
+}
+else
+{
+}
+}
+
+
+private function iscClipboard_Copy118():void
+{
+System.setClipboard(iscVwImpar);iscTargetIs3();
+//iscClipboard_Copy118Done}
+
+
+private function iscClipboard_Copy120():void
+{
+System.setClipboard(iscVwPar);iscTargetIs4();
+//iscClipboard_Copy120Done}
+
+
+private function iscIf_Linux122():void
+{
+var os:String = flash.system.Capabilities.os.substr(0, 3);
+    if (os == "Linux") {
+          var OS:String = "Linux";
+          iscRunShellScript114();
+//iscIf_Linux122Linux
+        } else {
+          var OS:String = "Other";
+          //iscIf_Linux122Else
+        }
+}
+
+
+private function iscSubtract123():void
+{
+iscVqDifference = iscVqTest - iscVn;
+iscSubtract124();
+//iscSubtract123Done
+}
+
+
+private function iscSubtract124():void
+{
+iscVqDifference = iscVsl - iscVqDifference;
+iscAdd125();
+//iscSubtract124Done
+}
+
+
+private function iscAdd125():void
+{
+iscVcount = iscVcount + iscVqDifference;
+//iscAdd125Done
+}
+
+
+private function iscAdd126():void
+{
+iscVqTest = iscVqTest + iscVn1;
+//iscAdd126Done
+}
+
+
+private function iscAdd127():void
+{
+iscVqTest = iscVcount + iscVsl;
+//iscAdd127Done
+}
+
+
+private function iscSubtract128():void
+{
+iscVqTest = iscVqTest - iscVn1;
+//iscSubtract128Done
+}
+
+
+private function iscAdd130():void
+{
+iscVcount = iscVcount + iscVn1;
+//iscAdd130Done
+}
+
+
+private function iscSubtract131():void
+{
+iscVcount = iscVcount - iscVn1;
+//iscSubtract131Done
+}
+
+
+private function iscAdd132():void
+{
+iscVcount = iscVcount + iscVsl;
+//iscAdd132Done
+}
+
+
+private function iscConvertNumberToText133():void
+{
+iscVcountText = String(iscVcount);
+//iscConvertNumberToText133Done
+}
+
+
+private function iscSetNumber134():void
+{
+iscVcount = iscVstart;
+iscSetText77();
+//iscSetNumber134Done
+}
+
+
+private function iscSetNumber135():void
+{
+iscVqDifference = 0;
+iscSetNumber134();
+//iscSetNumber135Done
+}
+
+
+private function iscAdd136():void
+{
+iscVqTest = iscVstart + iscVsl;
+//iscAdd136Done
+}
+
+
+private function iscAdd137():void
+{
+iscVqTest = iscVqTest + iscVsl;
+//iscAdd137Done
+}
+
+
+private function iscAdd138():void
+{
+iscVn = iscVn + iscVn1;
+//iscAdd138Done
+}
+
+
+private function iscSetNumber139():void
+{
+iscVwAbout = 1;
+iscWindow1()
+//iscSetNumber139Done
+}
+
+
+private function iscSetNumber140():void
+{
+iscVwAbout = 0;
+//iscSetNumber140Done
+}
+
+
+private function iscIfThen141():void
+{
+if (iscVqTest < iscVn)
+{
+iscCombineText97();
+iscPortalDeparture30();
+//iscIfThen141True
+
+}
+else
+{
+iscIfThen143();
+//iscIfThen141False
+}
+}
+
+
+private function iscIfThen142():void
+{
+if (iscVqTest < iscVn)
+{
+iscCombineText78();
+iscPortalDeparture37();
+//iscIfThen142True
+
+}
+else
+{
+iscIfThen144();
+//iscIfThen142False
+}
+}
+
+
+private function iscIfThen143():void
+{
+if (iscVqTest == iscVn)
+{
+iscCombineText97();
+iscAdd132();
+iscAdd130();
+iscConvertNumberToText133();
+iscCombineText64();
+//iscIfThen143True
+
+}
+else
+{
+//iscIfThen143False
+}
+}
+
+
+private function iscIfThen144():void
+{
+if (iscVqTest == iscVn)
+{
+iscCombineText78();
+iscAdd132();
+iscSubtract131();
+iscConvertNumberToText133();
+iscCombineText64();
+//iscIfThen144True
+
+}
+else
+{
+iscCombineText78();
+iscSubtract123();
+iscSubtract131();
+iscConvertNumberToText133();
+iscConvertNumberToText133();
+iscCombineText64();
+//iscIfThen144False
+}
+}
+
+
+private function iscDivide145():void
+{
+iscVqDifference = iscVn / iscVn2;
+//iscDivide145Done
+}
+
+
+private function iscSetCanvasPicture146():void
+{
+var myBitmap:BitmapData = new ischeaderjpg().bitmapData;
+iscWindow151header0.graphics.clear();
+iscWindow151header0.graphics.beginBitmapFill(myBitmap);
+iscWindow151header0.graphics.drawRect(0, 0,myBitmap.width, myBitmap.height);
+iscWindow151header0.graphics.endFill();
+//iscSetCanvasPicture146Done
+}
+
+
+private function iscSetCanvasPicture147():void
+{
+var myBitmap:BitmapData = new isccopyjpg().bitmapData;
+iscWindow151CP0.graphics.clear();
+iscWindow151CP0.graphics.beginBitmapFill(myBitmap);
+iscWindow151CP0.graphics.drawRect(0, 0,myBitmap.width, myBitmap.height);
+iscWindow151CP0.graphics.endFill();
+//iscSetCanvasPicture147Done
+}
+
+
+private function iscSetCanvasPicture148():void
+{
+var myBitmap:BitmapData = new isccopyjpg().bitmapData;
+iscWindow151CI0.graphics.clear();
+iscWindow151CI0.graphics.beginBitmapFill(myBitmap);
+iscWindow151CI0.graphics.drawRect(0, 0,myBitmap.width, myBitmap.height);
+iscWindow151CI0.graphics.endFill();
+//iscSetCanvasPicture148Done
+}
+
+
+private function iscCloseWindow149():void
+{
+iscWindow1about1.visible=false;
+iscSetNumber140();
+//iscCloseWindow149Done
+}
+
+
+private function iscSetCanvasPicture150():void
+{
+var myBitmap:BitmapData = new iscdualprintjpg().bitmapData;
+iscWindow1icon0.graphics.clear();
+iscWindow1icon0.graphics.beginBitmapFill(myBitmap);
+iscWindow1icon0.graphics.drawRect(0, 0,myBitmap.width, myBitmap.height);
+iscWindow1icon0.graphics.endFill();
+//iscSetCanvasPicture150Done
+}
+
+
+private function iscWindow151nChanged():void
+{
+//iscWindow151nChanged
+}
+
+
+private function iscWindow151slChanged():void
+{
+//iscWindow151slChanged
+}
+
+
+private function iscWindow151bStartClicked():void
+{
+iscGetTextBox93();
+//iscWindow151bStartClicked
+}
+
+
+private function iscWindow151startChanged():void
+{
+//iscWindow151startChanged
+}
+
+
+private function iscWindow151wImparChanged():void
+{
+iscSetTextBox62();
+//iscWindow151wImparChanged
+}
+
+
+private function iscWindow151wParChanged():void
+{
+iscSetTextBox96();
+//iscWindow151wParChanged
+}
+
+
+private function iscWindow151CIClicked():void
+{
+iscGetTextBox98();
+//iscWindow151CIClicked
+}
+
+
+private function iscWindow151CPClicked():void
+{
+iscGetTextBox99();
+//iscWindow151CPClicked
+}
+
+
+private function iscWindow151aboutClicked():void
+{
+iscIfThen5();
+//iscWindow151aboutClicked
+}
+
+
+private function iscWindow151paperClicked():void
+{
+iscOpen_in_Web_Browser45();
+//iscWindow151paperClicked
+}
+
+
+private function iscWindow151headerClicked():void
+{
+//iscWindow151headerClicked
+}
+
+
+private function iscWindow151():void
+{
+iscWindow151main1.visible=true;
+//iscWindow151Done
+iscSetCanvasPicture148();
+iscSetCanvasPicture147();
+iscSetCanvasPicture146();
+//iscWindow151Opened
+}
+
+
+private function iscWindow151Closed():void
+{
+iscAppQuit60();
+//iscWindow151Closed
+}
+
+
+private function iscWindow1iconClicked():void
+{
+//iscWindow1iconClicked
+}
+
+
+private function iscWindow1closeClicked():void
+{
+iscCloseWindow149();
+//iscWindow1closeClicked
+}
+
+
+private function iscWindow1webClicked():void
+{
+iscOpen_in_Web_Browser43();
+//iscWindow1webClicked
+}
+
+
+private function iscWindow1licenseClicked():void
+{
+iscOpen_in_Web_Browser41();
+//iscWindow1licenseClicked
+}
+
+
+private function iscWindow1():void
+{
+iscWindow1about1.visible=true;
+//iscWindow1Done
+iscSetCanvasPicture150();
+//iscWindow1Opened
+}
+
+
+private function iscWindow1Closed():void
+{
+iscSetNumber140();
+//iscWindow1Closed
+}
+
+
+//EndOfFunctions
+
+]]></mx:Script>
+
+<me:DraggablePanel id="iscWindow151main1" height="471" width="322" title="dualPrint" x="20" y="20" visible="false" layout="absolute" hide="iscWindow151Closed()">
+<s:Label x="10" y="127" text="Which would be the last page to print?" width="300" height="18" id="iscWindow151nQ0" />
+<s:Label x="10" y="183" text="How many slides or pages per side?" width="300" height="18" id="iscWindow151slidesQ0" />
+<s:TextInput x="40" y="148" text="12" width="90" height="24" id="iscWindow151n0" change="iscWindow151nChanged()" />
+<s:TextInput x="40" y="202" text="4" width="90" height="24" id="iscWindow151sl0" change="iscWindow151slChanged()" />
+<s:Button x="48" y="235" label="Generate Print Sets" width="250" height="32" id="iscWindow151bStart0" click="iscWindow151bStartClicked()" />
+<s:Label x="10" y="73" text="Which would be the first page to print?" width="300" height="18" id="iscWindow151inicioQ0" />
+<s:TextInput x="40" y="94" text="1" width="90" height="24" id="iscWindow151start0" change="iscWindow151startChanged()" />
+<s:Label x="4" y="277" text="Odd, set of pages to print first." width="316" height="18" id="iscWindow151infoImpar0" />
+<s:TextInput x="56" y="299" text="" width="245" height="26" id="iscWindow151wImpar0" change="iscWindow151wImparChanged()" />
+<s:Label x="4" y="336" text="Even, set of pages to print on the back." width="316" height="18" id="iscWindow151parInfo0" />
+<s:TextInput x="57" y="358" text="" width="245" height="26" id="iscWindow151wPar0" change="iscWindow151wParChanged()" />
+<mx:Canvas x="15" y="297" width="32" height="32" id="iscWindow151CI0" click="iscWindow151CIClicked()" />
+<mx:Canvas x="14" y="355" width="32" height="32" id="iscWindow151CP0" click="iscWindow151CPClicked()" />
+<s:Button x="166" y="395" label="About dualPrint" width="136" height="30" id="iscWindow151about0" click="iscWindow151aboutClicked()" />
+<s:Button x="18" y="395" label="Printing help" width="136" height="30" id="iscWindow151paper0" click="iscWindow151paperClicked()" />
+<mx:Canvas x="0" y="0" width="320" height="68" id="iscWindow151header0" click="iscWindow151headerClicked()" />
+</me:DraggablePanel>
+
+<me:DraggablePanel id="iscWindow1about1" height="406" width="320" title="About dualPrint" x="20" y="20" visible="false" layout="absolute" hide="iscWindow1Closed()">
+<mx:Canvas x="115" y="12" width="90" height="90" id="iscWindow1icon0" click="iscWindow1iconClicked()" />
+<s:Label x="10" y="155" text="dualPrint is a multi-platform application that" width="300" height="20" id="iscWindow1info0" />
+<s:Label x="10" y="225" text="Copyright © 2012 Javier O. Cordero Pérez" width="300" height="20" id="iscWindow1rights0" />
+<s:Button x="212" y="340" label="Close" width="80" height="27" id="iscWindow1close0" click="iscWindow1closeClicked()" />
+<s:Button x="18" y="340" label="Website" width="80" height="27" id="iscWindow1web0" click="iscWindow1webClicked()" />
+<s:Label x="10" y="285" text="This software is under the MIT License" width="300" height="20" id="iscWindow1MIT0" />
+<s:Label x="120" y="130" text="1.2" width="80" height="20" id="iscWindow1version0" />
+<s:Label x="120" y="108" text="dualPrint" width="80" height="20" id="iscWindow1dualprint0" />
+<s:Button x="110" y="340" label="License" width="80" height="27" id="iscWindow1license0" click="iscWindow1licenseClicked()" />
+<s:Label x="10" y="255" text="Built in Illumination Software Creator" width="300" height="20" id="iscWindow1illumination0" />
+<s:Label x="10" y="175" text="generates print sets for multiple pages per" width="300" height="20" id="iscWindow1info10" />
+<s:Label x="10" y="195" text="sheet, two-sided, printing." width="300" height="20" id="iscWindow1info20" />
+<s:Label x="10" y="305" text="For more information click License." width="300" height="20" id="iscWindow1MIT10" />
+</me:DraggablePanel>
+
+<!--EndOfMXML-->
+
+</mx:Application>
