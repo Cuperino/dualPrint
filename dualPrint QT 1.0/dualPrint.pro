@@ -15,13 +15,11 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     dualprint.cpp \
     dpcli.cpp \
-    javistd.cpp \
     about.cpp
 
 HEADERS  += mainwindow.h \
     dualprint.h \
     dpcli.h \
-    javistd.h \
     about.h
 
 FORMS    += mainwindow.ui \

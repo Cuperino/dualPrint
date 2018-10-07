@@ -10,19 +10,18 @@
 #include <cstdlib> //Using atoi char to int conversion
 #include <sstream> //Used for integer to string conversion
 #include "dualprint.h"
-#include "javistd.h"
 
 class dpCLI
 {
 public:
-    dpCLI(int argc, char* argv[], javistd& jstd);
+    dpCLI(int argc, char* argv[]);
 
 private:
     // Variables
     bool verbose, displayOdd, displayEven, displayTotal;
-    javistd * _jstd;
     // Functions
     void showUsage();
+    void showHeader();
     void constantPrint( int, int, int );
 };
 

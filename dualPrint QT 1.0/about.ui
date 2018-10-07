@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>240</width>
+    <width>277</width>
     <height>320</height>
    </rect>
   </property>
@@ -88,7 +88,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>dualPrint is an app that assists manual multiple pages per sheet duplex printing.</string>
+      <string>dualPrint assists manual multiple pages per sheet duplex printing.</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
