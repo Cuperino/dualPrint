@@ -25,10 +25,14 @@ void MainWindow::on_dualPrintButton_clicked() {
         lastPage = ui->lastPageSpinBox->text().toInt(),
         pagesPerSide = ui->pagesPerSideSpinBox->text().toInt();
 
+    QString oddSet = QString::fromStdString(dualPrint.simpleOdd(firstPage, lastPage, pagesPerSide)),
+            evenSet = QString::fromStdString(dualPrint.simpleEven(firstPage, lastPage, pagesPerSide)),
+            total = "Total: "+QString::number(dualPrint.simpleTotal(firstPage, lastPage, pagesPerSide));
+
     // dualPrint into corresponding textboxes
-    ui->oddOutput->setText( QString::fromStdString(dualPrint.simpleOdd(firstPage, lastPage, pagesPerSide)) );
-    ui->evenOutput->setText( QString::fromStdString(dualPrint.simpleEven(firstPage, lastPage, pagesPerSide)) );
-    ui->dualPrintButton->setText( "Total: "+QString::number(dualPrint.simpleTotal(firstPage, lastPage, pagesPerSide)) );
+    ui->oddOutput->setText( oddSet );
+    ui->evenOutput->setText( evenSet );
+    ui->dualPrintButton->setText( total );
 
     // Copy Odd: textbox into clipboard using the QT library.
     on_oddCopy_clicked();
