@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    about = new About;
+    help = new Help;
 }
 
 MainWindow::~MainWindow() {
@@ -55,11 +57,9 @@ void MainWindow::on_evenCopy_clicked() {
 }
 
 void MainWindow::on_aboutButton_clicked() {
-    About *about = new About;
     about->show();
 }
 
 void MainWindow::on_howToButton_clicked() {
-    //Help *help = new Help;
-    //help->show();
+    help->show();
 }

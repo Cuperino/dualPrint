@@ -10,6 +10,7 @@
 #include <QMainWindow>
 #include <QClipboard>
 #include "dualprint.h"
+#include "help.h"
 #include "about.h"
 
 namespace Ui {
@@ -37,6 +38,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    Help *help;
+    About *about;
     dualprint dualPrint;
 };
 

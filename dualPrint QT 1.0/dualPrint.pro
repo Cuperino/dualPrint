@@ -15,15 +15,18 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     dualprint.cpp \
     dpcli.cpp \
-    about.cpp
+    about.cpp \
+    help.cpp
 
 HEADERS  += mainwindow.h \
     dualprint.h \
     dpcli.h \
-    about.h
+    about.h \
+    help.h
 
 FORMS    += mainwindow.ui \
-    about.ui
+    about.ui \
+    help.ui
 
 RESOURCES += \
     resources.qrc
