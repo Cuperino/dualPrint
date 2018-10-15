@@ -9,38 +9,37 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>278</width>
+    <height>96</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Printing Assistance</string>
   </property>
-  <property name="windowIcon">
-   <iconset resource="resources.qrc">
-    <normaloff>:/img/images/dualprint.gif</normaloff>:/img/images/dualprint.gif</iconset>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QGraphicsView" name="graphicsView">
-     <property name="verticalScrollBarPolicy">
-      <enum>Qt::ScrollBarAlwaysOff</enum>
+    <widget class="QLabel" name="picture">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
-     <property name="horizontalScrollBarPolicy">
-      <enum>Qt::ScrollBarAlwaysOff</enum>
+     <property name="text">
+      <string notr="true"/>
      </property>
-     <property name="sizeAdjustPolicy">
-      <enum>QAbstractScrollArea::AdjustToContents</enum>
-     </property>
-     <property name="renderHints">
-      <set>QPainter::HighQualityAntialiasing</set>
+     <property name="scaledContents">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="descriptionLabel">
+    <widget class="QLabel" name="description">
      <property name="text">
       <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -51,6 +50,12 @@
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="previousButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>2</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="text">
         <string>Previous</string>
        </property>
@@ -58,6 +63,12 @@
      </item>
      <item>
       <widget class="QPushButton" name="closeButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="text">
         <string>Close</string>
        </property>
@@ -65,6 +76,12 @@
      </item>
      <item>
       <widget class="QPushButton" name="nextButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>2</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="text">
         <string>Next</string>
        </property>
@@ -74,8 +91,6 @@
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="resources.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

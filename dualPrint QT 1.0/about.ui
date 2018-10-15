@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>277</width>
-    <height>320</height>
+    <width>285</width>
+    <height>298</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -75,7 +75,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>QT 1.0</string>
+      <string>QT 1.1</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignHCenter|Qt::AlignTop</set>
@@ -110,10 +110,13 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Copyright 2014 Javier O. Cordero Pérez</string>
+      <string>Copyright 2014, 2018 Javier O. Cordero Pérez</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
      </property>
     </widget>
    </item>

@@ -22,8 +22,11 @@ private slots:
 
     void on_pushButton_Lic_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::About *ui;
+    int c;
 };
 
 #endif // ABOUT_H

@@ -2,6 +2,7 @@
 #define HELP_H
 
 #include <QDialog>
+#include <QPixmap>
 
 namespace Ui {
 class Help;
@@ -22,8 +23,13 @@ private slots:
 
     void on_nextButton_clicked();
 
+    void setCurrentElement();
+
 private:
     Ui::Help *ui;
+    int i;
+    static const int SIZE = 8;
+    QString description[SIZE];
 };
 
 #endif // HELP_H
