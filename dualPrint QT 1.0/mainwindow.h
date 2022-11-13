@@ -5,7 +5,7 @@
  *  Copyright 2014
 **/
 
-//#ifndef MAINWINDOW_H
+#ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include <QMainWindow>
 #include <QClipboard>
@@ -13,9 +13,9 @@
 #include "help.h"
 #include "about.h"
 
-namespace Ui {
-    class MainWindow;
-}
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
@@ -43,4 +43,4 @@ private:
     dualprint dualPrint;
 };
 
-//#endif // MAINWINDOW_H
+#endif // MAINWINDOW_H

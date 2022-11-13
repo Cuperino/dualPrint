@@ -6,7 +6,8 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 5): QT += widgets
+DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x051502
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = dualPrint
 TEMPLATE = app

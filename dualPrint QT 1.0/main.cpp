@@ -12,6 +12,8 @@
 
 int main(int argc, char* argv[])
 {
+    QT_DISABLE_DEPRECATED_BEFORE;
+
     // Objects
     QApplication a(argc, argv);
 

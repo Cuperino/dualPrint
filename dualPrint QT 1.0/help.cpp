@@ -46,6 +46,6 @@ void Help::setCurrentElement() {
     QString url = ":/img/images/help" + QString::number(this->i) + ".jpg";
     QPixmap currentPic(url);
     ui->picture->setPixmap(currentPic);
-    ui->picture->resize(ui->picture->pixmap()->size());
+    ui->picture->resize(ui->picture->pixmap().size());
     ui->description->setText(this->description[this->i]);
 }
