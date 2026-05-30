@@ -3,31 +3,30 @@
  *  License: MIT-X
  *  Description: dualPrint is an application to facilitate manual duplex printing.
  *  Copyright 2014
-**/
+ **/
 
-#include <QtGlobal>
-#include <QApplication>
-#include "mainwindow.h"
 #include "dpcli.h"
+#include "mainwindow.h"
+#include <QApplication>
+#include <QtGlobal>
 
 int main(int argc, char* argv[])
 {
-    QT_DISABLE_DEPRECATED_BEFORE;
-
     // Objects
     QApplication a(argc, argv);
 
     // Program
     //> If ran with more than an argument, enter classic CLI mode.
-    if (argc>1) {
+    if (argc > 1) {
         // Load CLI
         dpCLI cli(argc, argv);
     }
     //> Otherwise, load the GUI
     else {
-        // Load GUI    
+        // Load GUI
         MainWindow w;
-        w.show();
+        w.resize(338, 513);
+        w.showNormal();
         return a.exec();
     }
     return 0;

@@ -8,8 +8,6 @@
 #ifndef DPCLI_H
 #define DPCLI_H
 #include <cstdlib> //Using atoi char to int conversion
-#include <sstream> //Used for integer to string conversion
-#include "dualprint.h"
 
 class dpCLI
 {

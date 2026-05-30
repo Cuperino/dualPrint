@@ -16,13 +16,13 @@ About::~About()
 
 void About::on_pushButton_Web_clicked()
 {
-    QString link="http://imaginary.tech/dualprint";
+    QString link="http://dualprint.org/";
     QDesktopServices::openUrl(QUrl(link));
 }
 
 void About::on_pushButton_Lic_clicked()
 {
-    QString link="http://imaginary.tech/dualprint/LICENSE";
+    QString link="http://dualprint.org/LICENSE";
     QDesktopServices::openUrl(QUrl(link));
 }
 

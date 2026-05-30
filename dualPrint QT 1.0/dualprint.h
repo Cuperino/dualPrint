@@ -7,9 +7,8 @@
 
 #ifndef DUALPRINT_H
 #define DUALPRINT_H
-#include <iostream>
-#include <sstream> //Used for integer to string conversion
 
+#include <string>
 using namespace std;
 
 class dualprint {

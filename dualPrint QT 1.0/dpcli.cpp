@@ -5,9 +5,10 @@
  *  Copyright 2014
 **/
 
-#include "dpcli.h"
+#include <iostream>
 
-// CONSTRUCTOR
+#include "dpcli.h"
+#include "dualprint.h"
 
 dpCLI::dpCLI( int argc, char* argv[] )
 {
@@ -19,7 +20,7 @@ dpCLI::dpCLI( int argc, char* argv[] )
 
     // Process extra arguments.
     if ( argc > 2 ) {
-        string arg;
+        std::string arg;
         for ( int i = 2; i < argc; ++i ) {
             arg = argv[i];
             if ( arg == "-h" || arg == "--help" ) {
@@ -58,27 +59,27 @@ void dpCLI::constantPrint( int firstPage, int lastPage, int pagesPerSide ) {
 
     if (verbose == false) {
         if (displayOdd == true)
-            cout << dualPrint.simpleOdd( firstPage, lastPage, pagesPerSide ) << endl;
+            std::cout << dualPrint.simpleOdd( firstPage, lastPage, pagesPerSide ) << std::endl;
         if (displayEven == true)
-            cout << dualPrint.simpleEven( firstPage, lastPage, pagesPerSide ) << endl;
+            std::cout << dualPrint.simpleEven( firstPage, lastPage, pagesPerSide ) << std::endl;
         if (displayTotal == true)
-            cout << dualPrint.simpleTotal( firstPage, lastPage, pagesPerSide ) << endl;
+            std::cout << dualPrint.simpleTotal( firstPage, lastPage, pagesPerSide ) << std::endl;
     }
     else {
         this->showHeader();
         if (displayOdd == true)
-            cout << endl << " Odd:\t" << dualPrint.simpleOdd( firstPage, lastPage, pagesPerSide ) << endl;
+            std::cout << std::endl << " Odd:\t" << dualPrint.simpleOdd( firstPage, lastPage, pagesPerSide ) << std::endl;
         if (displayEven == true)
-            cout << endl << " Even:\t" << dualPrint.simpleEven( firstPage, lastPage, pagesPerSide ) << endl;
+            std::cout << std::endl << " Even:\t" << dualPrint.simpleEven( firstPage, lastPage, pagesPerSide ) << std::endl;
         if (displayTotal == true)
-            cout << endl << " Total:\t" << dualPrint.simpleTotal( firstPage, lastPage, pagesPerSide ) << endl;
+            std::cout << std::endl << " Total:\t" << dualPrint.simpleTotal( firstPage, lastPage, pagesPerSide ) << std::endl;
     }
     return;
 }
 
 void dpCLI::showUsage() {
     this->showHeader();
-    cout << "\nUsage:"
+    std::cout << "\nUsage:"
          << "\n <initial_page> <last_page> <pages_per_side> <options>"
          /*<< "\n Segmented print: <print_range> <pages_per_side> <options>\n"*/
          << "\nOptions:\n"
@@ -92,6 +93,6 @@ void dpCLI::showUsage() {
 }
 
 void dpCLI::showHeader() {
-    cout << "dualPrint - Manual duplex printing made easier"
+    std::cout << "DualPrint - Manual duplex printing made easier"
          << "\nLicenced under the MIT, by Javier Cordero <javier@imaginary.tech>\n";
 }
