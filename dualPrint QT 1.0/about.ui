@@ -110,7 +110,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Copyright 2014 Javier O. Cordero Pérez</string>
+      <string>Copyright 2011-2026 Javier O. Cordero Pérez</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignmentFlag::AlignBottom|Qt::AlignmentFlag::AlignHCenter</set>

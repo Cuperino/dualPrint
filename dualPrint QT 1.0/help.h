@@ -1,3 +1,6 @@
+// Copyright (C) 2012-2026 Javier O. Cordero Pérez
+// SPDX-License-Identifier: MIT
+
 #ifndef HELP_H
 #define HELP_H
 

@@ -1,9 +1,5 @@
-/**     dualPrint
- *  By: Javier Oscar Cordero Pérez
- *  License: MIT-X
- *  Description: dualPrint is an application to facilitate manual duplex printing.
- *  Copyright 2014
- **/
+// Copyright (C) 2012-2026 Javier O. Cordero Pérez
+// SPDX-License-Identifier: MIT
 
 #include "dpcli.h"
 #include "mainwindow.h"
